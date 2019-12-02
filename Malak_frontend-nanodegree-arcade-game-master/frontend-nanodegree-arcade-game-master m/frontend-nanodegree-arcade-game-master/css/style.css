@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+.game {
+	margin: 3rem auto 0 auto;
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+.arrows i {
+	color: #5169d5;
+	padding: 2px 3px;
+	
+    border-radius: 2px;
+}
+.arrows ul {
+	list-style: none;
+}
+
+.arrows li {
+	display: inline;
+	padding: 0 20px 0 0;
+}
+.arrows li:last-child { 
+	padding: 0;
+}
+ul { 
+	border: 1px solid #ccc; 
+    border-radius: 8px;
+    padding: 7px;
+} 
+
